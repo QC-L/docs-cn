@@ -1,3 +1,7 @@
+---
+title: 配置 Vite
+---
+
 # 配置 Vite {#configuring-vite}
 
 ## 配置文件 {#config-file}
@@ -158,8 +162,8 @@ export default async ({ command, mode }) => {
 
 - **类型：** `string[]`
 
-  如果你在你的应用程序中有相同依赖的副本（比如 monorepos），
-  使用这个选项来强制 Vite 总是将列出的依赖关系解析到相同的副本（从项目根目录)。
+  如果你在你的应用程序中有相同依赖的副本（比如 monorepos），使用这个选项来强制 Vite 总是将列出的依赖关系解析到相同的副本（从项目根目录)。
+
 
 ### resolve.conditions {#resolve-conditions}
 
@@ -456,7 +460,7 @@ export default async ({ command, mode }) => {
 - **类型：** `string`
 - **默认：** `dist`
 
-  指定输出路径（相对于 [项目根目录](/guide/#indexhtml-and-project-root)).
+  指定输出路径（相对于 [项目根目录](/guide/#index-html-and-project-root)).
 
 ### build.assetsDir {#build-assetsdir}
 
